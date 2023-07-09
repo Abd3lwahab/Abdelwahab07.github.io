@@ -1,7 +1,367 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
   <head>
-    <style data-styled="active" data-styled-version="5.3.3"></style>
+    <style data-styled="active" data-styled-version="5.3.3">
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      strong,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      menu,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      embed,
+      figure,
+      figcaption,
+      footer,
+      header,
+      hgroup,
+      main,
+      menu,
+      nav,
+      output,
+      ruby,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      .kjDsYK {
+        cursor: pointer;
+        padding: 5% 2.5%;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        background-color: rgb(25, 49, 65);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: auto;
+        color: rgba(255, 255, 255, 0.9);
+        font-family: 'Zilla Slab', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          'Helvetica Neue', Arial, sans-serif;
+        font-weight: normal;
+        word-break: normal;
+        overflow-wrap: normal;
+        hyphens: none;
+        font-kerning: normal;
+        font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+      }
+
+      .foGMjo {
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 95%;
+        flex-direction: column;
+        box-shadow: none;
+        border-radius: 0.8rem;
+        animation: 2s ease 0s 1 normal none running fadeIn;
+        transition: width 0.3s ease 0s;
+      }
+
+      .kjDsYK * {
+        line-height: 3.24rem;
+      }
+
+      .jseNCC {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0.8rem;
+        -webkit-box-align: center;
+        align-items: center;
+        background: none;
+        padding: 1.05rem;
+      }
+
+      .jseNCC > :first-child {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+      }
+
+      .cDFliv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        -webkit-box-pack: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .jseNCC > :last-child {
+        margin-bottom: 0px !important;
+        margin-right: 0px !important;
+      }
+
+      .cDFliv > :last-child {
+        margin-bottom: 0px !important;
+        margin-right: 0px !important;
+      }
+      .cDFliv > :first-child {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+      }
+
+      .dDlGkE {
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+      }
+
+      .kjDsYK h1 {
+        font-size: 4.86rem;
+        margin-bottom: 1.5rem;
+        line-height: 5.346rem;
+        font-weight: bold;
+        letter-spacing: -0.04rem;
+      }
+
+      .kjDsYK h2 {
+        font-size: 3.24rem;
+        margin-bottom: 1.5rem;
+        line-height: 3.726rem;
+      }
+
+      .kjDsYK h1,
+      .kjDsYK h2 {
+        text-rendering: optimizelegibility;
+        font-family: inherit;
+      }
+
+      .hPCCeV {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        align-self: center;
+      }
+
+      .jdamCf {
+        width: 5.52rem;
+        height: 5.52rem;
+        border: 1px solid;
+        margin: 0.792rem;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 4px;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease 0s;
+      }
+
+      .jdamCf svg {
+        height: 2.4rem;
+        fill: rgb(33, 33, 33);
+      }
+
+      .hWotgB {
+        width: 100%;
+        white-space: pre-wrap;
+        margin-bottom: 3rem;
+        text-align: center;
+        overflow: hidden auto;
+      }
+
+      .caipaO {
+        width: 100%;
+        overflow: hidden;
+        color: rgba(255, 255, 255, 0.75);
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+
+      .kjDsYK p {
+        font-size: 2.16rem;
+        line-height: 3.24rem;
+      }
+
+      .eXaiAz {
+        width: 100%;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+      }
+
+      .ifyCnq {
+        display: flex;
+        gap: 0.6rem;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 2.16rem;
+        cursor: pointer;
+        padding: 1.1rem 1.6rem 1rem;
+        background-color: rgb(255, 255, 255);
+        color: rgb(33, 33, 33);
+        transition: all 0.3s ease 0s;
+      }
+
+      .fENuwr {
+        padding: 0px 0.6rem 0px 0px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+      }
+
+      .fENuwr svg {
+        height: 2.16rem;
+        margin: 0px;
+        padding: 0px;
+        fill: rgb(33, 33, 33);
+      }
+
+      @media screen and (min-width: 1024px) {
+        .kjDsYK {
+          padding: 0px;
+        }
+
+        .foGMjo {
+          width: auto;
+          flex-direction: row;
+        }
+
+        .kjDsYK * {
+          line-height: 3.6rem;
+        }
+
+        .jseNCC {
+          width: 100%;
+          border-radius: 0.8rem;
+          padding: 6rem;
+        }
+
+        .cDFliv {
+          flex-direction: row;
+          -webkit-box-align: center;
+          align-items: center;
+        }
+
+        .kjDsYK h1 {
+          font-size: 5.4rem;
+          margin-bottom: 1.875rem;
+          line-height: 5.4rem;
+        }
+
+        .kjDsYK h2 {
+          font-size: 3.6rem;
+          margin-bottom: 1.875rem;
+          line-height: 4.14rem;
+        }
+
+        .kjDsYK h1,
+        .kjDsYK h2 {
+          max-width: 40vw;
+        }
+
+        .hWotgB {
+          max-width: 40vw;
+        }
+
+        .kjDsYK p {
+          font-size: 2.4rem;
+          line-height: 3.6rem;
+        }
+
+        .ifyCnq {
+          font-size: 2.4rem;
+        }
+
+        .fENuwr svg {
+          height: 2.4rem;
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+        .foGMjo {
+          max-width: 60vw;
+        }
+      }
+    </style>
   </head>
   <body
     data-new-gr-c-s-check-loaded="14.1114.0"
